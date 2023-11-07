@@ -1,0 +1,193 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    /* transition: 0.5s; */
+}
+
+#wrapper{
+    height: 100vh;
+    overflow-x: hidden;
+    perspective: 10px;
+}
+
+.container{
+    display: flex;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    transform-style: preserve-3d;
+    height: 100%;
+    z-index: -1;
+}
+
+.foreground, .background{
+    position: absolute;
+    height: 100%;
+    z-index: -1;
+    object-fit: cover;
+}
+
+.background{
+    transform: translateZ(-40px) scale(7);
+}
+
+.foreground{
+    transform: translateZ(-30px) scale(4);
+}
+
+h1{
+    position: absolute;
+    font-size: 6rem;
+    letter-spacing: 4px;
+    text-transform: uppercase;
+    color: whitesmoke;
+    left: 32%;
+    top: 32rem;
+    text-shadow: 0 0 10px rgb(0,0,0,0.3);
+}
+
+a{
+    position: relative;
+    text-decoration: none;
+    font-size: 28px;
+    color: black;
+    margin: 20px;
+    font-weight: 700;
+    top: 20%;
+    left: 2%;
+    text-shadow: 0 0 15px whitesmoke;
+}
+
+a:hover{
+    transform: scale(1.1);
+    transition: 0.5s;
+}
+
+section{
+    background-color: white;
+    padding: 1rem 0;
+    color: black;
+}
+
+.subheading{
+    font-size: 5rem;
+    padding: 0 10rem;
+    margin: 2rem 0;
+}
+
+.txt-p{
+    font-size: 1.5rem;
+    padding: 0 10rem;
+    margin: 5rem 0;
+    font-weight: 600;
+}
+
+.bg1{
+    background-image: url(./images/one_peice.jpg);
+}
+.bg2{
+    background-image: url(./images/Naruto.jpg);
+}
+.bg3{
+    background-image: url(./images/Demon-Slayer.jpg);
+}
+.bg4{
+    background-image: url(./images/Haikyuu.jpg);
+}
+.bg5{
+    background-image: url(./images/jujutsu_kaisen.jpg);
+}
+
+.bg{
+    position: relative;
+    width: 100%;
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+    height: 500px;
+}
+
+.head{
+    position: absolute;
+    background-color: white;
+    padding: 0.5rem 2.5rem;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+    color: black;
+    font-size: 3.5rem;
+    font-weight: bold;
+    box-shadow: 0 0 10px grey;
+}
+
+.author{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    padding: 0.5rem 2.5rem;
+    /* margin-top: 0%;  */
+    margin-left: 45%;
+    margin-right: 45%;
+    margin-bottom: 5%;
+    background-color: white;
+    border: 1px solid black;
+    color: black;
+    border-radius: 20px 40px;
+    cursor: pointer;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.author:hover{
+    transform: scale(1.1);
+    transition: 0.9s;
+    box-shadow: 0 0 10px rgb(0,0,0,0.3);
+} 
+
+footer{
+    background-color: aliceblue;
+    border-top:1px solid black ;
+} */
+
+ .foothead,.foot{
+    color: black;
+    font-size: 1.5rem;
+    padding: 0 10rem;
+    /* border: 1px solid black;  */
+    justify-content: center;
+    display: flex;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    /* margin: 5rem 0;   */
+}
+
+.foot{
+    margin-top: 1%; 
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    /* border: 1px solid black;  */
+}
+
+.footsec{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+hr{
+    margin-left: 40%;
+    margin-right: 40%;
+    margin-top: 1%;
+}
+
+.name{
+    font-size:medium;
+}
+
+.bi-person-fill{
+    color:black;
+}
+
